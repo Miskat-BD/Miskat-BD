@@ -12,7 +12,7 @@ Passionate about building modern web applications with clean UI, scalable backen
 
 ## 🚀 About Me
 
-- 🎓 Final Year Computer Science Student
+- 🎓 Computer Science Student
 - 💻 Learning Full Stack Web Development
 - ⚛️ Focused on React.js & Next.js
 - 🌱 Currently improving Backend Development & System Design
