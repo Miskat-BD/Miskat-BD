@@ -1,5 +1,6 @@
 <!-- HEADER START -->
 <p align="center">
+  <!-- আপনার assets/banner.png তৈরি হয়ে গেলে এটি কাজ করবে। যদি ব্যানার আপলোড না করে থাকেন, তবে নিচের লাইনটি বাদ দিতে পারেন -->
   <img src="assets/banner.png" alt="Miskat Hossain Banner" width="100%" />
 </p>
 
@@ -72,12 +73,12 @@ I am a final-year **Computer Science & Engineering** student based in Bangladesh
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=miskat-bin-habib&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=miskat-bin-habib&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=miskat-bin-habib&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=miskat-bin-habib&layout=compact&theme=dark&hide_border=true" alt="Top Languages" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=miskat-bin-habib&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="100%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=miskat-bin-habib&theme=dark&hide_border=true" alt="GitHub Streak" width="100%" />
 </p>
 
 ---
@@ -85,6 +86,7 @@ I am a final-year **Computer Science & Engineering** student based in Bangladesh
 ### 🐍 Codebase Activity
 
 <p align="center">
+  <!-- এই অ্যানিমেশনটি সচল করতে আপনার গিটহাবে অবশ্যই workflow (snake.yml) ফাইলটি রান থাকতে হবে -->
   <img src="https://raw.githubusercontent.com/miskat-bin-habib/miskat-bin-habib/output/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%" />
 </p>
 
