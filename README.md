@@ -1,100 +1,113 @@
-<h1 align="center">Hi 👋, I'm Miskat Hossain</h1>
+<!-- HEADER START -->
+<p align="center">
+  <img src="assets/banner.png" alt="Miskat Hossain Banner" width="100%" />
+</p>
 
-<h3 align="center">
-Computer Science Student | Full Stack Web Developer | MERN & Next.js Enthusiast
-</h3>
+<h1 align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=32&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Miskat+Bin+Habib;Full+Stack+Developer;Software+Engineer+In+The+Making" alt="Typing SVG" />
+  </a>
+</h1>
 
 <p align="center">
-Passionate about building modern web applications with clean UI, scalable backend architecture, and real-world problem solving.
+  <img src="https://raw.githubusercontent.com/kalanakt/All-In-One-Profile-Guide/main/assets/images/wave.gif" width="30px" />
 </p>
+<!-- HEADER END -->
 
 ---
 
-## 🚀 About Me
+### 👤 About Me
 
-- 🎓 Computer Science Student
-- 💻 Learning Full Stack Web Development
-- ⚛️ Focused on React.js & Next.js
-- 🌱 Currently improving Backend Development & System Design
-- 📚 Solving Data Structures & Algorithms on LeetCode
-- 🎯 Goal: Become a Professional Full Stack Engineer
+I am a final-year **Computer Science & Engineering** student based in Bangladesh, deeply invested in the art of crafting high-performance, scalable web ecosystems. My journey is focused on moving past basic execution to write clean, maintainable code that solves real-world architectural problems.
 
----
-
-## 💻 Tech Stack
-
-### Frontend
-
-![HTML5](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![NextJS](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)
-
-### Backend
-
-![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-
-### Database
-
-![MongoDB](https://img.shields.io/badge/MongoDB-4DB33D?style=for-the-badge&logo=mongodb&logoColor=white)
-
-### Tools
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+*   🚀 **Current Focus:** Advanced Data Structures & Algorithms & Robust System Design.
+*   🎓 **Education:** B.Sc. in Computer Science & Engineering (Final Year).
+*   🎯 **Career Goal:** Transitioning into a world-class Professional Full Stack / Software Engineer.
+*   🧠 **Currently Deep-Diving Into:** Next.js Server Components, Backend Optimization, and Microservices.
 
 ---
 
-## 📈 GitHub Stats
+### 🛠️ Tech Stack & Ecosystem
+
+<table align="center" style="border: none; background: transparent;">
+  <tr>
+    <td align="left" valign="top" width="50%">
+      <strong>Frontend Architecture</strong><br />
+      <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+      <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+      <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+      <br />
+      <img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+      <img src="https://img.shields.io/badge/react-%2320232A.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React.js" />
+      <img src="https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+    </td>
+    <td align="left" valign="top" width="50%">
+      <strong>Backend & Infrastructure</strong><br />
+      <img src="https://img.shields.io/badge/node.js-%236DA55F.svg?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+      <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt="Express.js" />
+      <img src="https://img.shields.io/badge/MongoDB-%234EA94B.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+      <br />
+      <img src="https://img.shields.io/badge/Better_Auth-%2324292e.svg?style=for-the-badge&logo=auth0&logoColor=white" alt="Better Auth" />
+      <img src="https://img.shields.io/badge/Stripe-%23008ECF.svg?style=for-the-badge&logo=stripe&logoColor=white" alt="Stripe" />
+    </td>
+  </tr>
+  <tr>
+    <td align="left" valign="top" colspan="2">
+      <strong>Engineering Tools</strong><br />
+      <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+      <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+      <img src="https://img.shields.io/badge/Visual_Studio_Code-%23007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
+      <img src="https://img.shields.io/badge/Postman-%23FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
+      <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+    </td>
+  </tr>
+</table>
+
+---
+
+### 📊 Performance Metrics & Git Analytics
 
 <p align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Miskat-BD&show_icons=true&theme=tokyonight"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Miskat-BD&layout=compact&theme=tokyonight"/>
-
+  <img src="https://github-profile-trophy.vercel.app/?username=miskat-bin-habib&theme=tokyonight&column=7&margin-w=15&margin-h=15&no-bg=true" alt="Trophies" />
 </p>
-
----
-
-## 🔥 GitHub Streak
 
 <p align="center">
-
-<img src="https://streak-stats.demolab.com?user=Miskat-BD&theme=tokyonight"/>
-
+  <img src="https://github-readme-stats.vercel.app/api?username=miskat-bin-habib&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=miskat-bin-habib&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%" />
 </p>
-
----
-
-## 📊 Profile Views
 
 <p align="center">
-
-<img src="https://komarev.com/ghpvc/?username=Miskat-BD&label=Profile%20Views&color=0e75b6&style=flat"/>
-
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=miskat-bin-habib&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="100%" />
 </p>
 
 ---
 
-## 🌐 Connect With Me
-
-<p>
-
-<a href="https://github.com/Miskat-BD">
-GitHub
-</a>
-
-</p>
-
----
+### 🐍 Codebase Activity
 
 <p align="center">
-
-⭐ Thanks for visiting my profile.
-
+  <img src="https://raw.githubusercontent.com/miskat-bin-habib/miskat-bin-habib/output/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%" />
 </p>
+
+---
+
+### 🤝 Connect With Me
+
+<p align="center">
+  <a href="https://linkedin.com/in/miskat-bin-habib" target="_blank">
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:your-email@domain.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/normal-gradient.svg?username=miskat-bin-habib&style=flat-square&label=Profile+Views&color=3B82F6&labelColor=1E293B" alt="Visitor Counter" />
+</p>
+
+<!-- FOOTER START -->
+<hr />
+<p align="center" style="color: #64748b; font-size: 14px;">
+  Driven by Logic • Crafted with Precision • Built for Scale
+</p>
+<!-- FOOTER END -->
