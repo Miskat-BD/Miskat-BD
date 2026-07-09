@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Miskat Hossain</h1>
+<h1 align="center">Hi 👋, I'm Miskat Bin Habib</h1>
 
 <h3 align="center">
 Computer Science Student | Full Stack Web Developer | MERN & Next.js Enthusiast
@@ -12,7 +12,7 @@ Passionate about building modern web applications with clean UI, scalable backen
 
 ## 🚀 About Me
 
-- 🎓 Final Year Computer Science Student
+- 🎓 Computer Science Student
 - 💻 Learning Full Stack Web Development
 - ⚛️ Focused on React.js & Next.js
 - 🌱 Currently improving Backend Development & System Design
