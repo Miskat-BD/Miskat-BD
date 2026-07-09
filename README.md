@@ -1,9 +1,4 @@
 <!-- HEADER START -->
-<p align="center">
-  <!-- আপনার assets/banner.png তৈরি হয়ে গেলে এটি কাজ করবে। যদি ব্যানার আপলোড না করে থাকেন, তবে নিচের লাইনটি বাদ দিতে পারেন -->
-  <img src="assets/banner.png" alt="Miskat Hossain Banner" width="100%" />
-</p>
-
 <h1 align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=32&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Miskat+Bin+Habib;Full+Stack+Developer;Software+Engineer+In+The+Making" alt="Typing SVG" />
@@ -30,7 +25,7 @@ I am a final-year **Computer Science & Engineering** student based in Bangladesh
 
 ### 🛠️ Tech Stack & Ecosystem
 
-<table align="center" style="border: none; background: transparent;">
+<table align="center" style="border: none; background: transparent; width: 100%;">
   <tr>
     <td align="left" valign="top" width="50%">
       <strong>Frontend Architecture</strong><br />
@@ -53,7 +48,7 @@ I am a final-year **Computer Science & Engineering** student based in Bangladesh
     </td>
   </tr>
   <tr>
-    <td align="left" valign="top" colspan="2">
+    <td align="left" valign="top" colspan="2"><br />
       <strong>Engineering Tools</strong><br />
       <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
       <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
@@ -66,28 +61,11 @@ I am a final-year **Computer Science & Engineering** student based in Bangladesh
 
 ---
 
-### 📊 Performance Metrics & Git Analytics
+### 📈 Current Activity Metrics
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=miskat-bin-habib&theme=tokyonight&column=7&margin-w=15&margin-h=15&no-bg=true" alt="Trophies" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=miskat-bin-habib&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=miskat-bin-habib&layout=compact&theme=dark&hide_border=true" alt="Top Languages" width="48%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=miskat-bin-habib&theme=dark&hide_border=true" alt="GitHub Streak" width="100%" />
-</p>
-
----
-
-### 🐍 Codebase Activity
-
-<p align="center">
-  <!-- এই অ্যানিমেশনটি সচল করতে আপনার গিটহাবে অবশ্যই workflow (snake.yml) ফাইলটি রান থাকতে হবে -->
-  <img src="https://raw.githubusercontent.com/miskat-bin-habib/miskat-bin-habib/output/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%" />
+  <!-- এটি আপনার প্রোফাইলের ট্র্যাকার হিসেবে ইনস্ট্যান্টলি লোড হবে যা কোনো থার্ড পার্টি সাইটের ওপর ডিপেন্ড করে না -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=miskat-bin-habib&theme=tokyonight&area=true&hide_border=true" alt="Miskat's Activity Graph" width="100%" />
 </p>
 
 ---
