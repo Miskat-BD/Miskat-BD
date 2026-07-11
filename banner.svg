@@ -1,0 +1,288 @@
+<svg width="1500" height="500" viewBox="0 0 1500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1e"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#0c1322"/>
+    </linearGradient>
+
+    <!-- Glow gradients -->
+    <radialGradient id="glowBlue" cx="25%" cy="50%" r="45%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="75%" cy="40%" r="40%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowAccent" cx="50%" cy="80%" r="35%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Glass card filter -->
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="0.8"/>
+    </filter>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="textglow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Clip for laptop screen -->
+    <clipPath id="screenClip">
+      <rect x="872" y="148" width="296" height="188" rx="4"/>
+    </clipPath>
+
+    <!-- Top accent bar -->
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#3b82f6"/>
+      <stop offset="60%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Card gradient -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ── BACKGROUND ── -->
+  <rect width="1500" height="500" fill="url(#bgGrad)"/>
+  <rect width="1500" height="500" fill="url(#glowBlue)"/>
+  <rect width="1500" height="500" fill="url(#glowCyan)"/>
+  <rect width="1500" height="500" fill="url(#glowAccent)"/>
+
+  <!-- Dot grid -->
+  <pattern id="dots" width="36" height="36" patternUnits="userSpaceOnUse">
+    <circle cx="18" cy="18" r="0.8" fill="#334155" opacity="0.5"/>
+  </pattern>
+  <rect width="1500" height="500" fill="url(#dots)"/>
+
+  <!-- Abstract circuit lines -->
+  <g opacity="0.08" stroke="#3b82f6" stroke-width="1" fill="none">
+    <line x1="0" y1="120" x2="200" y2="120"/>
+    <line x1="200" y1="120" x2="200" y2="60"/>
+    <line x1="200" y1="60" x2="380" y2="60"/>
+    <circle cx="200" cy="120" r="3" fill="#3b82f6"/>
+    <circle cx="200" cy="60" r="3" fill="#3b82f6"/>
+    <line x1="0" y1="300" x2="150" y2="300"/>
+    <line x1="150" y1="300" x2="150" y2="380"/>
+    <circle cx="150" cy="300" r="3" fill="#3b82f6"/>
+    <line x1="1300" y1="80" x2="1500" y2="80"/>
+    <line x1="1300" y1="80" x2="1300" y2="160"/>
+    <circle cx="1300" cy="80" r="3" fill="#06b6d4"/>
+    <line x1="1380" y1="420" x2="1500" y2="420"/>
+    <line x1="1380" y1="380" x2="1380" y2="420"/>
+    <circle cx="1380" cy="380" r="3" fill="#06b6d4"/>
+  </g>
+
+  <!-- Top accent line -->
+  <rect x="0" y="0" width="1500" height="3" fill="url(#accentLine)"/>
+  <!-- Bottom accent line -->
+  <rect x="0" y="497" width="1500" height="3" fill="url(#accentLine)"/>
+
+  <!-- Vertical divider (subtle) -->
+  <line x1="720" y1="60" x2="720" y2="440" stroke="#1e3a5f" stroke-width="1" stroke-dasharray="4 6" opacity="0.4"/>
+
+  <!-- ══════════════════════════════════════════
+       LEFT SIDE — Name & Info
+  ══════════════════════════════════════════ -->
+
+  <!-- Name: MISKAT BIN HABIB -->
+  <!-- Shadow/glow layer -->
+  <text x="80" y="195" font-family="'Segoe UI', Arial, sans-serif" font-size="64" font-weight="800"
+    fill="#3b82f6" opacity="0.25" filter="url(#softglow)" letter-spacing="-1">MISKAT</text>
+  <text x="80" y="195" font-family="'Segoe UI', Arial, sans-serif" font-size="64" font-weight="800"
+    fill="#ffffff" letter-spacing="-1">MISKAT</text>
+
+  <text x="80" y="263" font-family="'Segoe UI', Arial, sans-serif" font-size="64" font-weight="800"
+    fill="#3b82f6" opacity="0.25" filter="url(#softglow)" letter-spacing="-1">BIN HABIB</text>
+  <text x="80" y="263" font-family="'Segoe UI', Arial, sans-serif" font-size="64" font-weight="800"
+    fill="#ffffff" letter-spacing="-1">BIN HABIB</text>
+
+  <!-- Designation with left accent bar -->
+  <rect x="80" y="282" width="5" height="36" rx="2" fill="#06b6d4"/>
+  <text x="96" y="308" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="400"
+    fill="#06b6d4" letter-spacing="3">FULL STACK DEVELOPER</text>
+
+  <!-- Tech row -->
+  <text x="82" y="350" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#64748b">
+    React  ·  Next.js  ·  Node.js  ·  MongoDB
+  </text>
+
+  <!-- Tagline -->
+  <text x="82" y="388" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#475569" font-style="italic">
+    Building scalable web applications with modern technologies.
+  </text>
+
+  <!-- Country badge -->
+  <rect x="82" y="408" width="130" height="28" rx="14" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="147" y="427" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#94a3b8">Bangladesh 🇧🇩</text>
+
+  <!-- Animated-style decorative line -->
+  <rect x="82" y="450" width="200" height="2" rx="1" fill="url(#accentLine)" opacity="0.6"/>
+  <rect x="82" y="458" width="120" height="2" rx="1" fill="url(#accentLine)" opacity="0.3"/>
+
+  <!-- ══════════════════════════════════════════
+       RIGHT SIDE — Laptop + Icons
+  ══════════════════════════════════════════ -->
+
+  <!-- Laptop body shadow/glow -->
+  <ellipse cx="1020" cy="420" rx="200" ry="18" fill="#3b82f6" opacity="0.08" filter="url(#softglow)"/>
+
+  <!-- Laptop base -->
+  <rect x="810" y="388" width="420" height="28" rx="4" fill="#0f172a" stroke="#1e3a5f" stroke-width="1.5"/>
+  <rect x="870" y="390" width="300" height="4" rx="2" fill="#1e293b"/>
+  <!-- Hinge bump -->
+  <rect x="1008" y="385" width="24" height="8" rx="4" fill="#1e293b"/>
+
+  <!-- Laptop lid back -->
+  <rect x="855" y="130" width="330" height="260" rx="10" fill="#0d1526" stroke="#1e3a5f" stroke-width="1.5"/>
+  <!-- Apple-logo style subtle mark -->
+  <circle cx="1020" cy="258" r="16" fill="#111827" opacity="0.5"/>
+
+  <!-- Screen bezel -->
+  <rect x="865" y="140" width="310" height="240" rx="6" fill="#070d1a"/>
+
+  <!-- Screen content background -->
+  <rect x="872" y="148" width="296" height="188" rx="4" fill="#0d1117"/>
+
+  <!-- Code editor content (clipped to screen) -->
+  <g clip-path="url(#screenClip)">
+    <!-- Line numbers bg -->
+    <rect x="872" y="148" width="30" height="188" fill="#0a0f1a"/>
+    <!-- Line numbers -->
+    <text x="878" y="168" font-family="monospace" font-size="9" fill="#374151">01</text>
+    <text x="878" y="183" font-family="monospace" font-size="9" fill="#374151">02</text>
+    <text x="878" y="198" font-family="monospace" font-size="9" fill="#374151">03</text>
+    <text x="878" y="213" font-family="monospace" font-size="9" fill="#374151">04</text>
+    <text x="878" y="228" font-family="monospace" font-size="9" fill="#374151">05</text>
+    <text x="878" y="243" font-family="monospace" font-size="9" fill="#374151">06</text>
+    <text x="878" y="258" font-family="monospace" font-size="9" fill="#374151">07</text>
+    <text x="878" y="273" font-family="monospace" font-size="9" fill="#374151">08</text>
+    <text x="878" y="288" font-family="monospace" font-size="9" fill="#374151">09</text>
+    <text x="878" y="303" font-family="monospace" font-size="9" fill="#374151">10</text>
+    <text x="878" y="318" font-family="monospace" font-size="9" fill="#374151">11</text>
+
+    <!-- Code lines -->
+    <text x="910" y="168" font-family="monospace" font-size="10" fill="#c084fc">import</text>
+    <text x="951" y="168" font-family="monospace" font-size="10" fill="#e2e8f0"> React </text>
+    <text x="982" y="168" font-family="monospace" font-size="10" fill="#c084fc">from</text>
+    <text x="1007" y="168" font-family="monospace" font-size="10" fill="#86efac"> 'react'</text>
+
+    <text x="910" y="183" font-family="monospace" font-size="10" fill="#c084fc">import</text>
+    <text x="951" y="183" font-family="monospace" font-size="10" fill="#f9a8d4"> Next </text>
+    <text x="978" y="183" font-family="monospace" font-size="10" fill="#c084fc">from</text>
+    <text x="1003" y="183" font-family="monospace" font-size="10" fill="#86efac"> 'next'</text>
+
+    <text x="910" y="198" font-family="monospace" font-size="10" fill="#94a3b8">// Full Stack Dev</text>
+
+    <text x="910" y="213" font-family="monospace" font-size="10" fill="#38bdf8">const</text>
+    <text x="940" y="213" font-family="monospace" font-size="10" fill="#f9a8d4"> dev </text>
+    <text x="956" y="213" font-family="monospace" font-size="10" fill="#e2e8f0">= {"{"}  </text>
+
+    <text x="918" y="228" font-family="monospace" font-size="10" fill="#86efac">name:</text>
+    <text x="945" y="228" font-family="monospace" font-size="10" fill="#fde68a"> 'Miskat',</text>
+
+    <text x="918" y="243" font-family="monospace" font-size="10" fill="#86efac">stack:</text>
+    <text x="948" y="243" font-family="monospace" font-size="10" fill="#fde68a"> 'MERN',</text>
+
+    <text x="918" y="258" font-family="monospace" font-size="10" fill="#86efac">status:</text>
+    <text x="952" y="258" font-family="monospace" font-size="10" fill="#fde68a"> 'building',</text>
+
+    <text x="918" y="273" font-family="monospace" font-size="10" fill="#86efac">open:</text>
+    <text x="942" y="273" font-family="monospace" font-size="10" fill="#38bdf8"> true</text>
+
+    <text x="910" y="288" font-family="monospace" font-size="10" fill="#e2e8f0">{"}"}</text>
+
+    <text x="910" y="303" font-family="monospace" font-size="10" fill="#94a3b8">// Ready to ship 🚀</text>
+
+    <!-- Cursor blink line -->
+    <rect x="910" y="310" width="7" height="12" rx="1" fill="#38bdf8" opacity="0.9"/>
+  </g>
+
+  <!-- Screen tab bar -->
+  <rect x="872" y="148" width="296" height="16" rx="0" fill="#161b27"/>
+  <circle cx="886" cy="156" r="4" fill="#ff5f57"/>
+  <circle cx="900" cy="156" r="4" fill="#febc2e"/>
+  <circle cx="914" cy="156" r="4" fill="#28c840"/>
+  <rect x="930" y="150" width="80" height="12" rx="4" fill="#1e293b"/>
+  <text x="932" y="160" font-family="monospace" font-size="8" fill="#64748b">index.jsx</text>
+
+  <!-- ── FLOATING TECH LOGOS ── -->
+
+  <!-- React logo (spinning circle feel) -->
+  <g transform="translate(770, 120)">
+    <circle cx="0" cy="0" r="28" fill="#0d1117" stroke="#1e3a5f" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="28" fill="#20d9d2" opacity="0.06"/>
+    <!-- React atom simplified -->
+    <ellipse cx="0" cy="0" rx="20" ry="7" fill="none" stroke="#61dafb" stroke-width="2" opacity="0.9"/>
+    <ellipse cx="0" cy="0" rx="20" ry="7" fill="none" stroke="#61dafb" stroke-width="2" opacity="0.9" transform="rotate(60)"/>
+    <ellipse cx="0" cy="0" rx="20" ry="7" fill="none" stroke="#61dafb" stroke-width="2" opacity="0.9" transform="rotate(120)"/>
+    <circle cx="0" cy="0" r="4" fill="#61dafb"/>
+    <text x="0" y="46" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#61dafb" opacity="0.8">React</text>
+  </g>
+
+  <!-- Next.js logo -->
+  <g transform="translate(770, 240)">
+    <circle cx="0" cy="0" r="28" fill="#0d1117" stroke="#1e3a5f" stroke-width="1.5"/>
+    <text x="0" y="6" text-anchor="middle" font-family="'Arial Black', sans-serif" font-size="18" font-weight="900" fill="#ffffff">N</text>
+    <text x="0" y="46" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#e2e8f0" opacity="0.8">Next.js</text>
+  </g>
+
+  <!-- Node.js logo -->
+  <g transform="translate(770, 358)">
+    <circle cx="0" cy="0" r="28" fill="#0d1117" stroke="#1e3a5f" stroke-width="1.5"/>
+    <polygon points="0,-16 14,8 -14,8" fill="none" stroke="#68a063" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="0" y="46" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#68a063" opacity="0.8">Node.js</text>
+  </g>
+
+  <!-- MongoDB -->
+  <g transform="translate(1280, 160)">
+    <circle cx="0" cy="0" r="28" fill="#0d1117" stroke="#1e3a5f" stroke-width="1.5"/>
+    <path d="M0,-18 C8,-8 10,2 8,12 C6,20 2,24 0,26 C-2,24 -6,20 -8,12 C-10,2 -8,-8 0,-18 Z" fill="#4db33d" opacity="0.9"/>
+    <text x="0" y="46" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#4db33d" opacity="0.8">MongoDB</text>
+  </g>
+
+  <!-- JavaScript -->
+  <g transform="translate(1280, 280)">
+    <circle cx="0" cy="0" r="28" fill="#0d1117" stroke="#1e3a5f" stroke-width="1.5"/>
+    <rect x="-14" y="-14" width="28" height="28" rx="4" fill="#f7df1e" opacity="0.9"/>
+    <text x="-3" y="10" font-family="'Arial Black', sans-serif" font-size="14" font-weight="900" fill="#000000">JS</text>
+    <text x="0" y="46" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#f7df1e" opacity="0.8">JavaScript</text>
+  </g>
+
+  <!-- Tailwind -->
+  <g transform="translate(1280, 400)">
+    <circle cx="0" cy="0" r="28" fill="#0d1117" stroke="#1e3a5f" stroke-width="1.5"/>
+    <path d="M-14,0 C-14,-10 -7,-14 0,-10 C7,-14 14,-10 14,0 C14,10 7,14 0,10 C-7,14 -14,10 -14,0Z" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+    <text x="0" y="46" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#38bdf8" opacity="0.8">Tailwind</text>
+  </g>
+
+  <!-- Glow rings behind floating icons -->
+  <circle cx="770" cy="120" r="34" fill="none" stroke="#61dafb" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="770" cy="240" r="34" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.2"/>
+  <circle cx="770" cy="358" r="34" fill="none" stroke="#68a063" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="1280" cy="160" r="34" fill="none" stroke="#4db33d" stroke-width="0.5" opacity="0.3"/>
+  <circle cx="1280" cy="280" r="34" fill="none" stroke="#f7df1e" stroke-width="0.5" opacity="0.2"/>
+  <circle cx="1280" cy="400" r="34" fill="none" stroke="#38bdf8" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Connecting glow lines (subtle) -->
+  <line x1="798" y1="140" x2="855" y2="158" stroke="#61dafb" stroke-width="0.5" opacity="0.15"/>
+  <line x1="798" y1="258" x2="855" y2="238" stroke="#e2e8f0" stroke-width="0.5" opacity="0.1"/>
+  <line x1="1185" y1="175" x2="1252" y2="165" stroke="#4db33d" stroke-width="0.5" opacity="0.15"/>
+  <line x1="1185" y1="290" x2="1252" y2="280" stroke="#f7df1e" stroke-width="0.5" opacity="0.12"/>
+
+</svg>
