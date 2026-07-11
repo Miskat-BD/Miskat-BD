@@ -16,7 +16,7 @@
 
 ## About Me
 
-I am a final-year Computer Science & Engineering student from Bangladesh with a strong interest in full-stack web development. I enjoy building modern, performant, and user-friendly web applications using the MERN stack.
+I am a Computer Science & Engineering student from Bangladesh with a strong interest in full-stack web development. I enjoy building modern, performant, and user-friendly web applications using the MERN stack.
 
 I believe in writing clean, maintainable code and continuously improving through real-world problem solving. My goal is to become a professional software engineer and contribute to meaningful products.
 
