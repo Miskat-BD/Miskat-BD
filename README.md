@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.png" alt="Miskat Bin Habib — Full Stack Developer" width="100%" />
+<img src="./assets/banner.png" alt="Miskat Bin Habib — Full Stack Developer" width="100%" />
 
 </div>
 
