@@ -1,3 +1,4 @@
+
 <div align="center">
 
 <img src="./assets/banner.png" alt="Miskat Bin Habib — Full Stack Developer" width="100%" />
@@ -16,7 +17,7 @@
 
 ## About Me
 
-I am a Computer Science & Engineering student from Bangladesh with a strong interest in full-stack web development. I enjoy building modern, performant, and user-friendly web applications using the MERN stack.
+I am a Computer Science & Engineering graduate from Bangladesh with a strong interest in full-stack web development. I enjoy building modern, performant, and user-friendly web applications using the MERN stack.
 
 I believe in writing clean, maintainable code and continuously improving through real-world problem solving. My goal is to become a professional software engineer and contribute to meaningful products.
 
@@ -81,7 +82,7 @@ const miskat = {
 <div align="center">
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Miskat-BD&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=3b82f6&icon_color=06b6d4&text_color=94a3b8"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Miskat-BD&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=3b82f6&text_color=94a3b8"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Miskat-BD&layout=compact&langs_count=6&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=3b82f6&text_color=94a3b8"/>
 
 </div>
 
